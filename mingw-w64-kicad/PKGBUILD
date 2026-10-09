@@ -11,7 +11,7 @@ pkgbase=mingw-w64-${_realname}
 pkgname=("${MINGW_PACKAGE_PREFIX}-${_realname}"
          "${MINGW_PACKAGE_PREFIX}-${_realname}-demos"
          "${MINGW_PACKAGE_PREFIX}-${_realname}-meta")
-pkgver=10.0.4
+pkgver=10.0.6
 pkgrel=1
 pkgdesc="Software for the creation of electronic schematic diagrams and printed circuit board artwork (mingw-w64)"
 arch=(any)
@@ -78,7 +78,7 @@ source=(
   '010-clangarm64-libcontext-asm.patch'
 )
 noextract=("kicad-${pkgver}.tar.bz2")
-sha256sums=('341c39320250182223378bb741df8b6043eb19772211c11f3f3ce1c50796334d'
+sha256sums=('20cb10686bb1e75166e27e5ac27d0911d705f0735bb433b4c104c0e5d68d7a5c'
             '2924a86849c02aecd21cded0bd2069353fca33c3364f9b41f9bfdd80e19085cf'
             'd8d5f4bdd0aa6d8a907710c523f6f95840636cb2ef69e5275c6ed4966f134353'
             'f35a96c2393c21c266dbcd42616df64f9ee13b2423478bf6de029a3ad4e0ee8a'
